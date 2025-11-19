@@ -1,0 +1,13 @@
+package java123.OOPS.abstraction;
+
+abstract public class BankAccount {
+    private String accountNumber;
+    private double balance;
+    public abstract void deposit(double amount);
+    public abstract void withdraw(double amount);
+
+    public BankAccount(String accountNumber, double balance) {
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+    }
+}
