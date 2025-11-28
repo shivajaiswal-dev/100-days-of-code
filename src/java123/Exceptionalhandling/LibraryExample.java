@@ -1,6 +1,6 @@
 package java123.Exceptionalhandling;
 
-
+/*
 class BookUnavailableException extends Exception{
 
     public BookUnavailableException(String message  ) {
@@ -27,7 +27,6 @@ if(member==null || member.isEmpty()){
     throw new InvalidmemberException("Member Invalid");
 }
 
-
 }}
 public class LibraryExample {
     static void main(String args[]) {
@@ -43,3 +42,4 @@ public class LibraryExample {
      e.printStackTrace();
         System.out.println("exception"+e.getMessage());
 }}}
+*/
